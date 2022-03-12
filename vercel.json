@@ -1,5 +1,6 @@
 {
   "redirects": [
-    { "source": "/*", "destination": "www.example.com/*" }
+    { "source": "/", "destination": "https://www.example.com/" },
+    { "source": "/:path*", "destination": "https://www.example.com/:path*" }
   ]
 }
